@@ -1,0 +1,36 @@
+@charset "UTF-8";
+.subcard>ul{
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 10px;
+}
+.subcard>ul>li{
+    width: 48%;
+    padding: 15px 0;
+    border-radius: 24px;
+    background: #fff;
+}
+.subcard>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subcard>ul>li>a>.imgbox{
+    width: 50%;
+}
+.subcard>ul>li>a>.imgbox>img{
+    display: inline-block;
+    width: 60%;
+    margin-bottom: 4px;
+}
+.subcard>ul>li>a>.imgbox>h3{
+    font-size: 14px;
+    color: #292929;
+}
