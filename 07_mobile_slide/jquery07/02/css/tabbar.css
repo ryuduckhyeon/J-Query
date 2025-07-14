@@ -16,17 +16,20 @@
     display: flex;
     justify-content: space-between;
 }
-.tabbar .tabnav .left_icon, .tabbar .tabnav .right_icon{
+.tabbar .tabnav>ul>li{
     display: flex;
-}
-.tabbar .tabnav .left_icon>li, .tabbar .tabnav .right_icon>li{
+    align-items: center;
     width: 18vw;
     height: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.tabbar .tabnav .left_icon>li>a, .tabbar .tabnav .right_icon>li>a{
+.tabbar .tabnav>ul{
+    display: flex;
+}
+
+.tabbar .tabnav>ul>li>a{
     color: #d3d3d3;
 }
 .tabbar .tabnav>ul>li.on>a{

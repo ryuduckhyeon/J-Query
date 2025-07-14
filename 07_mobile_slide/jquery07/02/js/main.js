@@ -26,4 +26,9 @@ autoplay:{
     el: '.swiper-scrollbar',
   },
 });
+
+  //링크이동 금지
+  $("a").on("click", function(e){
+      e.preventDefault();
+  })
 })
