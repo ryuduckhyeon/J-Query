@@ -1,0 +1,52 @@
+@charset "utf-8";
+.tabbar{
+    width: 100%;
+    height: 65px;
+    /* background: gold; */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
+.tabbar .tabnav{
+    width: 100%;
+    height: 65px;
+    background: url(../images/navi_bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.tabbar .tabnav .left_icon, .tabbar .tabnav .right_icon{
+    display: flex;
+}
+.tabbar .tabnav .left_icon>li, .tabbar .tabnav .right_icon>li{
+    width: 18vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tabbar .tabnav .left_icon>li>a, .tabbar .tabnav .right_icon>li>a{
+    color: #d3d3d3;
+}
+.tabbar .tabnav>ul>li.on>a{
+    color: #009233;
+}
+.btn_order{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.btn_order>img{
+    width: 28px;
+}
